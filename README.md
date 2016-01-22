@@ -9,7 +9,7 @@ Step by step, we're going to build up a page that shows a series of random numbe
 Work your work through these steps.
 
 1. [Show a number](./show-a-number.md).
-* Show a random number on page load.
+* [Show a random number on page load](./show-a-random-number-on-page-load.md).
 * Show three different random numbers on page load.
 * Show a message when two or more random numbers match.
 * [Publish your code to the web](./publish-your-code-to-the-web.md).
