@@ -7,6 +7,8 @@ Step by step, we're going to build up a page that shows a series of random numbe
 ![matches](https://cloud.githubusercontent.com/assets/1239497/12511823/109de326-c11d-11e5-9986-7e6f8ed994d0.jpg)
 
 Work your work through these steps.
+
+1. [Show a number](./show-a-number.md).
 * Show a random number on page load.
 * Show three different random numbers on page load.
 * Show a message when two or more random numbers match.
