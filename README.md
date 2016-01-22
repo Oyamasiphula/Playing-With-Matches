@@ -1,8 +1,12 @@
-# Playing With Matches
+# Playing With Matches :fire:
 
 We'll be making some web pages with HTML, CSS, and JavaScript. Have a quick look at [the web triangle](./web-triangle.md) for some information about the structure of web pages.
 
-* Show a number.
+Step by step, we're going to build up a page that shows a series of random numbers, checks for matches, and shows a message, like this:
+
+![matches](https://cloud.githubusercontent.com/assets/1239497/12511823/109de326-c11d-11e5-9986-7e6f8ed994d0.jpg)
+
+Work your work through these steps.
 * Show a random number on page load.
 * Show three different random numbers on page load.
 * Show a message when two or more random numbers match.
