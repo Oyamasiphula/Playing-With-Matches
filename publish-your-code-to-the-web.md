@@ -1,6 +1,9 @@
 ## Publish your code to a website
 
-Now we're going to publish your work to a website, using [GitHub Pages](https://pages.github.com/). If you have a git branch called `gh-pages` in a repository that you have pushed to GitHub, GitHub will publish the static HTML, CSS, and JavaScript for you at at `<username>.github.io`. You can use this for any static content, but not for apllications that require a server.
+Now we're going to publish your work to a website using [GitHub Pages](https://pages.github.com/), so that you can easily demo your work. If you have a git branch called `gh-pages` in a repository that you have pushed to GitHub, GitHub will publish the static HTML, CSS, and JavaScript for you at at `<username>.github.io`. You can use this for any static content, but not for applications that require a server.
+
+Add a file called `index.html`. Inside it, make a list of links to the pages you made from task 1, 2, and 3. Add some CSS to make it look more interesting. You might want to look at [list-style](https://developer.mozilla.org/en-US/docs/Web/CSS/list-style) and  [list-style-type](https://developer.mozilla.org/en-US/docs/Web/CSS/list-style-type). In `task1.html`, `task2.html`, and `task3.html` add a (hyper)link back to `index.html`.
+
 
 ## Branches
 
@@ -44,3 +47,7 @@ After you've done this you should checkout the master branch again by doing:
 ```
 git checkout master
 ```
+
+## Files we don't need git to watch
+
+Let's learn a bit more about another part of git: [ignoring files](gitignore.md).
