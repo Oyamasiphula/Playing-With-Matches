@@ -2,6 +2,8 @@
 
 > In this task you'll practice using CSS to style a block.
 
+![](./img/1.jpg)
+
 Create a file called `index.html` that looks something like this:
 
 ```html

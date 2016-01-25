@@ -2,6 +2,8 @@
 
 > In this task you'll use JavaScript to generate a random number and update some HTML.
 
+![](./img/2.jpg)
+
 ## The DOM
 
 DOM stands for Document Object Model. This is an in memory representation of the elements contained in an HTML document. Eloquent JavaScript provides a good introduction to the DOM in [Chapter 13: The Document Object Model](http://eloquentjavascript.net/13_dom.html).
