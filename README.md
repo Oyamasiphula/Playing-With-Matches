@@ -16,5 +16,5 @@ Work your work through these steps.
 * [Add a button that shows a new set of random numbers](add-a-button that-shows-a-new-set-of-random-numbers.md).
 * [Add more rows and update the message](add-more-rows-and-update-the-message.md).
 * [Republish your work to the web](./republish-your-work-to-the-web.md).
-* Show a message when two or more numbers on the same row or column match.
+* [Show a message when two or more numbers on the same row or column match](show-a-message-when-two-or-more-numbers-on-the-same-row-or-column-match.md).
 * Show a message when two or more numbers on the same row, column, or diagonal match.
