@@ -1,6 +1,6 @@
 # Show a message when two or more random numbers match
 
-> In this task, you'll use HTML, CSS, and JavaScript to show a message when some of the random numbers match.
+> Use JavaScript to show a message when some numbers match.
 
 ![](./img/4.jpg)
 
@@ -10,8 +10,8 @@ Now that your page has three different random numbers, sometimes they'll match. 
 
 Highlight the numbers that are the matching ones by
 
-* using JS to add a class (for example, `highlight`) to the `div` in the HTML;
-* adding styles in your CSS file that use your new class (try changing the `color`, `background-color`, `border`, and more!).
+* using JS to add a class (for example, `highlight`) to the appropriate `div`s in the HTML;
+* adding styles in your CSS file that use your new class(es) (try changing the `color`, `background-color`, `border`, and more!).
 
 For adding and removing classes, have a look at:
 
@@ -22,13 +22,13 @@ For adding and removing classes, have a look at:
 
 Display a message under the numbers that says
 
-* what the matched number was;
+* what the matched numbers were;
 * how many matches there were.
 
 ## Add files and push them to GitHub
 
-Once you're done, add your changes to git by using similar commands to the ones you used for the previous tasks. If you want to add multiple files at the same time, you can do it like this:
+To add all the files that have changed at once, you can use:
 
 ```
-git add index.html styles.css script.js
+git add .
 ```
