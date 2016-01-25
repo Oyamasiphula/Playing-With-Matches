@@ -11,7 +11,7 @@ Work your work through these steps.
 1. [Show a number](./show-a-number.md).
 * [Show a random number on page load](./show-a-random-number-on-page-load.md).
 * [Show three different random numbers on page load](./show-three-different-random-numbers-on-page-load.md).
-* Show a message when two or more random numbers match.
+* [Show a message when two or more random numbers match](show-a-message-when-two-or-more-random-numbers-match.md).
 * [Publish your code to the web](./publish-your-code-to-the-web.md).
 * Add a button that shows a new set of random numbers.
 * Show three rows of random numbers, with a button controlling each row.
