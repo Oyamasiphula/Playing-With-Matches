@@ -2,6 +2,8 @@
 
 > In this task, you'll use HTML and JavaScript to add two more number blocks.
 
+![](./img/3.jpg)
+
 Move your JavaScript to an external file. The bottom of your `index.html` should look something like this:
 
 ```html
