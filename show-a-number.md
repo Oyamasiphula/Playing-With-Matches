@@ -1,10 +1,10 @@
 # Show a number
 
-> In this task you'll practice using CSS to style a block.
+> Create a web page and apply CSS using an embedded style block.
 
 ![](./img/1.jpg)
 
-Create a file called `index.html` that looks something like this:
+Our first step is to make a web page with a number on it. Create a file called `index.html` that looks something like this:
 
 ```html
 <!DOCTYPE html>
@@ -40,12 +40,12 @@ Untracked files:
 nothing added to commit but untracked files present (use "git add" to track)
 ```
 
-Now run `git add index.html` to track that file. That tells git to watch that file for changes.
+Now run `git add index.html` to track that file. That tells git to watch it for changes.
 
 If there are files that you don't want git to track, don't add them using `git add`. For example: you might see `index.html~`. That's a local backup file created by your computer, so you don't need to `git add` it.
 
-To commit your changes to git, run `git commit -m "my message"`. The message should be something to remind you of the changes you've just made. You might write "Added my first number."
+To commit your changes to git, run `git commit -m "my message"`. The message should be something to remind you of the changes you've just made. You might write `git commit -m "Added my first number"`.
 
-## Push it
+## Push it to GitHub
 
-To send your code to GitHub, run `git push -u origin master`. You'll only need the `-u` the first time you push. After that, you can use `git push origin master` or just `git push`.
+To send your code to GitHub, run `git push -u origin master`. You'll only need the `-u` the first time you push: it means set (and remember) that the master branch on my machine and the master branch on Github are linked. After that, you can use `git push origin master` or just `git push`.
