@@ -1,12 +1,14 @@
 # Show a random number on page load
 
-> In this task you'll use JavaScript to generate a random number and update some HTML.
+> Use JavaScript to generate a random number and update HTML and use external CSS.
 
 ![](./img/2.jpg)
 
+Our next step is to use JavaScript to make our number random and changing rather than fixed. To do that, we need to find the number on the page, then change.
+
 ## The DOM
 
-DOM stands for Document Object Model. This is an in memory representation of the elements contained in an HTML document. Eloquent JavaScript provides a good introduction to the DOM in [Chapter 13: The Document Object Model](http://eloquentjavascript.net/13_dom.html).
+DOM stands for Document Object Model. This is an in-memory representation of the elements contained in an HTML document. Eloquent JavaScript provides a good introduction to the DOM in [Chapter 13: The Document Object Model](http://eloquentjavascript.net/13_dom.html).
 
 You can find elements in the DOM by their `id` or by their `class`. There are a couple ways of doing this. Have a read about these on the [Mozilla Developer Network](https://developer.mozilla.org/en-US/) about:
 
@@ -36,7 +38,7 @@ Add a space for your JavaScript at the bottom of the page, like this:
 Now write some JavaScript that:
 
 * finds your `div` with the number in;
-* replaces it with a new random number between 1 and 9.
+* replaces it with a new random number from 1 to 9.
 
 Every time the page loads, you should see a new random number. Yay!
 
