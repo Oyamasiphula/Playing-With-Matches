@@ -4,7 +4,7 @@ We'll be making some web pages with HTML, CSS, and JavaScript. Have a quick look
 
 Step by step, we're going to build up a page that shows a series of random numbers, checks for matches, and shows a message, like this:
 
-![matches](https://cloud.githubusercontent.com/assets/1239497/12511823/109de326-c11d-11e5-9986-7e6f8ed994d0.jpg)
+![matches](./img/matches.jpg)
 
 Work your work through these steps.
 
