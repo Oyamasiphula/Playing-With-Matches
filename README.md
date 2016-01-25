@@ -6,7 +6,7 @@ Step by step, we're going to build up a page that shows a series of random numbe
 
 ![matches](./img/matches.jpg)
 
-Work your work through these steps.
+Work your way through these steps.
 
 1. [Show a number](./show-a-number.md).
 * [Show a random number on page load](./show-a-random-number-on-page-load.md).
