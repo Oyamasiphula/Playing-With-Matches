@@ -10,8 +10,13 @@ Now that your page has three different random numbers, sometimes they'll match. 
 
 Highlight the numbers that are the matching ones by
 
-* using JS to add a class to the `div` in the HTML;
-* adding styles in the your CSS file that use your new class (try changing the `color`, `background-color`, `border`, and more!).
+* using JS to add a class (for example, `highlight`) to the `div` in the HTML;
+* adding styles in your CSS file that use your new class (try changing the `color`, `background-color`, `border`, and more!).
+
+For adding and removing classes, have a look at:
+
+  * [className](https://developer.mozilla.org/en-US/docs/Web/API/Element/className)
+  * [classList](https://developer.mozilla.org/en-US/docs/Web/API/Element/classList)
 
 ## Messaging
 
