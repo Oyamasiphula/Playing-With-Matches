@@ -1,6 +1,6 @@
 # Add a button that shows a new set of random numbers
 
-> In this task you'll use JavaScript to update the HTML and show random numbers.
+> Use JavaScript to update the HTML and show random numbers.
 
 ![](./img/5.jpg)
 
