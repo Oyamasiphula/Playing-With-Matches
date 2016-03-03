@@ -11,17 +11,29 @@
 
     <body>
     	<!-- HTML goes here -->
-    <div id="card">
-    <p id="number"></p>
+    <div id="card"  class="card">
+    <p id="number" class="number"></p>
     </div>
 
-      <script type="text/javascript">
+    //   <script type="text/javascript">
+    //     // JavaScript code goes here at the bottom
+    //         function genRandomNumber(x,y) {
+    //             var z = Math.floor((Math.random() * x) + y);
+    //                 console.log(z);
+    //                 document.getElementById("number").innerHTML = z;
+    //                 return z;
+    //         }
+    //         genRandomNumber(10,1);
+    // </script>
+
+     <script type="text/javascript">
         // JavaScript code goes here at the bottom
             function genRandomNumber(x,y) {
                 var z = Math.floor((Math.random() * x) + y);
+                    console.log(z);
                     document.getElementById("number").innerHTML = z;
+                    return z;
             }
-
             genRandomNumber(10,1);
     </script>
 
