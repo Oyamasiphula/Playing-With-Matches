@@ -1,26 +1,31 @@
 <!DOCTYPE html>
 <html>
 <head>
+
+
+    <link rel="stylesheet" type="text/css" href="customStyle.css">
+
 	<title>The title of my page</title>
 
-	<style type="text/css">
-	/* CSS goes here */
-div.oneSt{
-    height: 150px;
-    width: 150px;
-    border: 3px solid;
-    text-align: center;
-    border-radius: 17px;
-    background-color: #90ed87;
-    font-size: 8em;
-}
-	</style>
 </head>
-<body>
-	<!-- HTML goes here -->
-<div class="oneSt">1
-</div>
 
-</body>
+    <body>
+    	<!-- HTML goes here -->
+    <div id="card">
+    <p id="number"></p>
+    </div>
+
+      <script type="text/javascript">
+        // JavaScript code goes here at the bottom
+            function genRandomNumber(x,y) {
+                var z = Math.floor((Math.random() * x) + y);
+                    document.getElementById("number").innerHTML = z;
+            }
+
+            genRandomNumber(10,1);
+    </script>
+
+
+    </body>
 
 </html>
