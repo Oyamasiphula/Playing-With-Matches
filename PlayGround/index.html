@@ -11,30 +11,38 @@
 
     <body>
     	<!-- HTML goes here -->
-    <div id="card"  class="card">
+        <div id="card"  class="card">
     <p id="number" class="number"></p>
-    </div>
+        </div>
 
-    //   <script type="text/javascript">
-    //     // JavaScript code goes here at the bottom
-    //         function genRandomNumber(x,y) {
-    //             var z = Math.floor((Math.random() * x) + y);
-    //                 console.log(z);
-    //                 document.getElementById("number").innerHTML = z;
-    //                 return z;
-    //         }
-    //         genRandomNumber(10,1);
-    // </script>
 
      <script type="text/javascript">
-        // JavaScript code goes here at the bottom
+var generateCards = 0;
+var countCards = 0
+
+function cardGenCreation(id){
+       this.makeCard = function(){
+                        // JavaScript code goes here at the bottom
             function genRandomNumber(x,y) {
+
+                var newElement = document.createElement('p');
+                newElement.id = "number";
+                document.body.appendChild(newElement);
                 var z = Math.floor((Math.random() * x) + y);
-                    console.log(z);
                     document.getElementById("number").innerHTML = z;
+                        console.log(z);
                     return z;
             }
             genRandomNumber(10,1);
+
+        };
+}
+
+            var newElement = document.createElement('div');
+                newElement.id = "card";
+                document.body.appendChild(newElement);
+            var myDiv = new cardGenCreation(newElement.id);
+        
     </script>
 
 
